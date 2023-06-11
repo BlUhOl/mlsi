@@ -12,7 +12,7 @@ const order = () => {
 
 
         <div className='shadow-xl border-2 border-emerald-700 rounded-lg w-auto'>
-          <iframe className='w-[1550px] h-[720px] p-1' src="https://docs.google.com/spreadsheets/d/1XVQtxyDs2wIA_JhXlSi8psr1bi4Gd34lczFdvG2kG_8/edit?&amp;rm=minimal&amp;single=true&amp;headers=false"></iframe>
+          <iframe className='w-[1550px] h-[720px] p-1' src="https://docs.google.com/spreadsheets/d/1XVQtxyDs2wIA_JhXlSi8psr1bi4Gd34lczFdvG2kG_8/edit?&amp;rm=minimal&amp;single=true&amp;headers=false&amp;range=A1:I100"></iframe>
         </div>
       </div>
     </main>
