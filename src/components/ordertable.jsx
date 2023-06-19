@@ -1,6 +1,6 @@
 import React from 'react'
 
-const order = () => {
+const ordertable = () => {
   return (
     <main className='ml-72  bg-emerald-50'>
       <div className=' w-full h-screen p-10'>
@@ -12,11 +12,14 @@ const order = () => {
 
 
         <div className='shadow-xl border-2 border-emerald-700 rounded-lg w-auto'>
-          <iframe className='w-[1550px] h-[720px] p-1' src="https://docs.google.com/spreadsheets/d/1XVQtxyDs2wIA_JhXlSi8psr1bi4Gd34lczFdvG2kG_8/edit?&amp;rm=minimal&amp;single=true&amp;headers=false&amp;range=A1:I100"></iframe>
+          <iframe className='w-[1550px] h-[720px] p-1' src="https://docs.google.com/spreadsheets/d/1XVQtxyDs2wIA_JhXlSi8psr1bi4Gd34lczFdvG2kG_8/edit?usp=sharing&amp;rm=minimal&amp;single=true&amp;headers=false"></iframe>
         </div>
+
+      
+        
       </div>
     </main>
   )
 }
 
-export default order
+export default ordertable
