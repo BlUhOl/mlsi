@@ -34,8 +34,8 @@ const login = () => {
     <main>
     <_headnavbar/>
     <div className='py-28 bg-gradient-to-br from-emerald-500 to-emerald-700 w-full h-screen'>
-        <div className='flex items-center justify-center'>
-            <div className='bg-emerald-50 p-10 rounded-xl m-64'>
+        <div className='sm:flex items-center justify-center'>
+            <div className='bg-emerald-50 p-10 rounded-xl lg:m-64'>
                 <div>
                     <h3 className='text-2xl font-bold text-emerald-950 my-3'>Login</h3>
 
