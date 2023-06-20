@@ -1,8 +1,14 @@
-import React from 'react'
+import React from 'react';
+import _navbar from './navbar';
 
 const mainhome = () => {
   return (
-    <main className='ml-72'>
+    
+    <main>
+      <_navbar/>
+    <div className='ml-72'>
+
+    
     <div className='bg-gradient-to-br from-emerald-300 to-emerald-50 w-full h-screen p-5'>
       <div className='p-3 border-2 border-emerald-500 bg-emerald-100 bg-opacity-40 backdrop-blur-sm rounded-md h-full'>
         
@@ -17,6 +23,7 @@ const mainhome = () => {
         <iframe className='' width="498" height="270" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRujdCrwCWrq6cXCwL9DjjuKASTWH_RiLqOj85qEuPKCm6hQ1Ui_5rDmKrAt6kbN2cVr-ttto48QmPQ/pubchart?oid=1170124347&amp;format=interactive"></iframe>
 
         </div>
+      </div>
       </div>
 
       </div>

@@ -1,8 +1,12 @@
 import React from 'react'
+import _navbar from './navbar';
+
 
 const ordertable = () => {
   return (
-    <main className='ml-72  bg-emerald-50'>
+    <main>
+    <_navbar/>
+    <div className='ml-72  bg-emerald-50'>
       <div className=' w-full h-screen p-10'>
         <div className='flex bg-emerald-200  rounded-xl p-3 border-2 border-emerald-300 mb-3 bg-gradient-to-r from-emerald-300 to-emerald-50 shadow-lg'>
           <h1 className='text-3xl container font-medium'>Order Table</h1>
@@ -18,6 +22,7 @@ const ordertable = () => {
       
         
       </div>
+    </div>
     </main>
   )
 }

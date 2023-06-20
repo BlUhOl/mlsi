@@ -1,117 +1,40 @@
-import React from 'react';
-import data from './data.json';
-import { useState, Fragment } from 'react';
-import { nanoid } from 'nanoid';
+import React from 'react'
+import _navbar from './navbar';
 
-const Inventorytable = () => {
-    const [invntry, setInvntry] = useState(data);
-    
 
-    //menerima input dari field form
-    const [addtabledata, setAddtabledata] = useState({
-        id:"",
-        namaobat:"",
-        harga:"",
-        stok:""
-    })
-
-    //menerima data ketika terjadi event perubahan realtime
-    const handleAddTableChange = (event) => {
-        //menolak post request
-        event.preventDefault();
-        
-        //mendapatkan input atribut name yang berubah
-        const fieldname = event.target.getAttribute('name');
-        //mendapatkan input atribut value
-        const fieldvalue = event.target.value;
-        
-        //menyalin input data form
-        const newTableData = { ...addtabledata};
-        newTableData[fieldname] = fieldvalue;
-        
-        //pass new data to newtabledata
-        setAddtabledata(newTableData);
-    };
-
-    const handleAddTableSubmit = (event) => {
-        //menolak post request
-        event.preventDefault();
-
-        const newTable = {
-            rowid: nanoid(),
-            id: addtabledata.id,
-            namaobat: addtabledata.namaobat,
-            harga: addtabledata.harga,
-            stok: addtabledata.stok
-        }
-
-        const newTables = [...invntry, newTable];
-        setInvntry(newTables)
-    }
-
+const inventory = () => {
   return (
     <main>
-    
-        <div>
-            <table className=''>
-                <thead className='bg-blue-100'>
-                <tr>
-                    <th>Id</th>
-                    <th>Nama Obat</th>
-                    <th>Harga Jual</th>
-                    <th>Stok</th>
-                </tr>
-                </thead>
-                <tbody>
-                {invntry.map((inventory) => (
-                    <tr>
-                    <td>{inventory.id}</td>
-                    <td>{inventory.namaobat}</td>
-                    <td>{inventory.harga}</td>
-                    <td>{inventory.stok}</td>
-                    </tr>
-                ))}
-                
-                </tbody>
-            </table>
-
-            <h3>Tambahkan Obat baru</h3>
-            <form
-            onSubmit={handleAddTableSubmit}>
-                <input 
-                    type="number"
-                    name="id"
-                    required="required"
-                    placeholder="id.."
-                    onChange={handleAddTableChange}
-                    />
-                <input 
-                    type="text"
-                    name="namaobat"
-                    required="required"
-                    placeholder="obat.."
-                    onChange={handleAddTableChange}
-                    />
-                <input 
-                    type="text"
-                    name="harga"
-                    required="required"
-                    placeholder="harga.."
-                    onChange={handleAddTableChange}
-                    />
-                <input 
-                    type="number"
-                    name="stok"
-                    required="required"
-                    placeholder="stok.."
-                    onChange={handleAddTableChange}
-                    />
-                    <button type="submit">Add</button>
-            </form>
-
+    <_navbar/>
+    <div className='ml-72  bg-emerald-50'>
+      <div className=' w-full h-screen p-10'>
+        <div className='flex bg-emerald-200  rounded-xl p-3 border-2 border-emerald-300 mb-3 bg-gradient-to-r from-emerald-300 to-emerald-50 shadow-lg'>
+          <h1 className='text-3xl container font-medium'>Inventory</h1>
+          <iframe className='container' src="https://free.timeanddate.com/clock/i8vzuvux/n108/tlid38/tct/pct/ahr/avt/tt0/tw0/th1/tb4" frameborder="0" width="125" height="34" allowtransparency="true"></iframe>
         </div>
+
+        <div className='p-2 bg-emerald-100 rounded-xl mb-5 border-2 border-emerald-300'>
+        <h1 className='text-2xl font-medium text-emerald-900'>Masukkan Data Baru</h1>
+        <div className='shadow-xl border-2 border-emerald-700 rounded-lg w-min'>
+        
+          <iframe className='w-[1200px] h-[450px] p-1' src="https://docs.google.com/spreadsheets/d/1i4YnTATB70SBt41ZKMG0Sze6zkpVL5fap3mo8N0rioM/edit?usp=sharing&amp;rm=minimal&amp;single=true&amp;headers=false&amp;chrome=false&amp;widget=false"></iframe>
+        </div>
+        </div>
+
+        <div className='p-2 bg-emerald-100 rounded-xl mb-5 border-2 border-emerald-300'>
+        <h1 className='text-2xl font-medium text-emerald-900'>Tabel Inventory</h1>
+        <div className='shadow-xl border-2 border-emerald-700 rounded-lg w-min'>
+          <iframe className='w-[1200px] h-[720px] p-1' src="https://docs.google.com/spreadsheets/d/1mtKpoo-BNcD9Hh3XR7eXzdGdIgs4QK8id0gzoh7o9Z8/edit?usp=sharing&amp;rm=minimal&amp;single=true&amp;headers=false&amp;chrome=false"></iframe>
+        </div>
+        </div>
+
+      
+        
+      </div>
+    </div>
+
     </main>
   )
 }
 
-export default Inventorytable
+export default inventory
