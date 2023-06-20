@@ -42,11 +42,11 @@ const login = () => {
                     <form id='loginform' action='post'>
                         <div className='my-1'>
                             <h4 className='text-xl font-normal'>Username</h4>
-                            <input className='p-1 bg-white focus:bg-emerald-200 rounded-lg border-2 focus:outline-none focus:border-emerald-700' size={40} type='text' name='namauser' id='username' placeholder='Masukkan username anda' required></input>
+                            <input className='p-1 bg-white focus:bg-emerald-200 rounded-lg border-2 focus:outline-none focus:border-emerald-700' size={35} type='text' name='namauser' id='username' placeholder='Masukkan username anda' required></input>
                         </div>
                         <div className='my-1'>
                             <h4 className='text-xl font-normal'>Password</h4>
-                            <input className='p-1 bg-white focus:bg-emerald-200 rounded-lg border-2 focus:outline-none focus:border-emerald-700' size={40} type='password' name='passuser' id='password' placeholder='Masukkan password anda' required></input>
+                            <input className='p-1 bg-white focus:bg-emerald-200 rounded-lg border-2 focus:outline-none focus:border-emerald-700' size={35} type='password' name='passuser' id='password' placeholder='Masukkan password anda' required></input>
                         </div>
 
                         <div className='my-1 mt-5'>
