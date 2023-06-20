@@ -9,7 +9,8 @@ const hero = () => {
 
 
 
-        <div className='flex justify-center items-center bg-gradient-to-br from-emerald-600 to-cyan-600 w-full h-screen '>
+        <div className='flex justify-center items-center bg-[url(https://drive.google.com/uc?export=view&id=1wNDXidGAooEkCr0ecbOUXithhHN3WAVP)]  w-full h-screen '>
+          <div className='bg-emerald-900 w-full h-screen flex justify-center items-center bg-opacity-50 '>
             <div className='mx-2'>
             <h1 className=' text-white text-7xl font font-medium mb-6 text-center'>Pesan obat sekarang!</h1>
             
@@ -17,7 +18,10 @@ const hero = () => {
             
             
             </div>
+            </div>
         </div>
+        
+        
     </main>
   )
 }
