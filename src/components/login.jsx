@@ -33,24 +33,24 @@ const login = () => {
   return (
     <main>
     <_headnavbar/>
-    <div className='py-36 bg-sky-950 w-full h-screen'>
+    <div className='py-28 bg-gradient-to-br from-emerald-500 to-emerald-700 w-full h-screen'>
         <div className='flex items-center justify-center'>
-            <div className='bg-emerald-50 p-10 rounded-xl'>
+            <div className='bg-emerald-50 p-10 rounded-xl m-64'>
                 <div>
                     <h3 className='text-2xl font-bold text-emerald-950 my-3'>Login</h3>
 
                     <form id='loginform' action='post'>
-                        <div>
-                            <h4>Username</h4>
-                            <input type='text' name='namauser' id='username' placeholder='Masukkan username anda' required></input>
+                        <div className='my-1'>
+                            <h4 className='text-xl font-normal'>Username</h4>
+                            <input className='p-1 bg-white focus:bg-emerald-200 rounded-lg border-2 focus:outline-none focus:border-emerald-700' size={50} type='text' name='namauser' id='username' placeholder='Masukkan username anda' required></input>
                         </div>
-                        <div>
-                            <h4>Password</h4>
-                            <input type='password' name='passuser' id='password' placeholder='Masukkan password anda' required></input>
+                        <div className='my-1'>
+                            <h4 className='text-xl font-normal'>Password</h4>
+                            <input className='p-1 bg-white focus:bg-emerald-200 rounded-lg border-2 focus:outline-none focus:border-emerald-700' size={50} type='password' name='passuser' id='password' placeholder='Masukkan password anda' required></input>
                         </div>
 
-                        <div>
-                            <button type='submit' onClick={auth}>Login</button>
+                        <div className='my-1 mt-5'>
+                            <button className='bg-emerald-700 w-full px-3 py-1 rounded-lg border-2 text-emerald-50 font-medium hover:bg-white hover:text-emerald-950 hover:border-emerald-600 transition-all ease-in' type='submit' onClick={auth}>Login</button>
                         </div>
                     </form>
                 </div>
