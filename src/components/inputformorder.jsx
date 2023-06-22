@@ -18,7 +18,7 @@ const inputformorder = () => {
     var hfmx = document.getElementById("fmx").value * 15000;
 
     
-     var ttlprc = hibprfn + hprctml + hsnml + hobh + hzl100 + hzl300 ;
+     var ttlprc = hibprfn + hprctml + hsnml + hobh + hzl100 + hzl300 + hfmx ;
      document.getElementById("result").hidden = false;
 
     document.getElementById("data1").innerHTML = nm;
