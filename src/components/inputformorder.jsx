@@ -13,9 +13,12 @@ const inputformorder = () => {
     var hprctml = document.getElementById("prctml").value * 5000;
     var hsnml = document.getElementById("snml").value * 3000;
     var hobh = document.getElementById("obh").value * 25000;
+    var hzl100 = document.getElementById("zl100").value * 10000;
+    var hzl300 = document.getElementById("zl300").value * 20000;
+    var hfmx = document.getElementById("fmx").value * 15000;
 
     
-     var ttlprc = hibprfn + hprctml + hsnml + hobh ;
+     var ttlprc = hibprfn + hprctml + hsnml + hobh + hzl100 + hzl300 ;
      document.getElementById("result").hidden = false;
 
     document.getElementById("data1").innerHTML = nm;
@@ -29,6 +32,9 @@ const inputformorder = () => {
     document.getElementById("thprctml").innerHTML ="Paracetamol    " + "x" + document.getElementById("prctml").value + "=        Rp." + hprctml;
     document.getElementById("thsnml").innerHTML ="Sanmol     " + "x" + document.getElementById("snml").value + "=        Rp." + hsnml;
     document.getElementById("thobh").innerHTML ="OBH     " + "x" + document.getElementById("obh").value + "=        Rp." + hobh;
+    document.getElementById("thzl100").innerHTML ="Zyloric 100mg    " + "x" + document.getElementById("zl100").value + "=        Rp." + hzl100;
+    document.getElementById("thzl300").innerHTML ="Zyloric 300mg    " + "x" + document.getElementById("zl300").value + "=        Rp." + hzl300;
+    document.getElementById("thfmx").innerHTML ="Feminax    " + "x" + document.getElementById("fmx").value + "=        Rp." + hfmx;
    
    
 
@@ -139,7 +145,45 @@ const inputformorder = () => {
                     </div>
                     
                 </div>
+
+                <div className='grid grid-cols-3 gap-5 bg-gradient-to-br from-emerald-100 to-cyan-100 p-5 rounded-lg shadow-lg border-2 border-emerald-50'>
+                    
+                    <img className='rounded-xl border-2 border-emerald-300 w-full h-full col-span-1 break-inside-avoid' src='https://drive.google.com/uc?export=view&id=1VCfDmdbZFwXpM9C-bYGubXLwPAfcb-QV'></img>
+                    <div className='col-span-2 border-l-2 border-dashed border-emerald-300 pl-3'>
+                    <h3 className='text-2xl font-medium text-emerald-900'>Zyrolic 100mg</h3>
+                    <h3 className='bg-gradient-to-l from-emerald-300 to-emerald-400 p-1 rounded-lg my-1 text-emerald-50 font-bold text-md'>Rp.10000</h3>
+                    <p className='text-slate-500'>Dalam Satuan strip</p>
+                    <h5 className='text-slate-600 text-xs'>Jumlah : ..(Max.5)</h5>
+                    <input id='zl100' className='mt-3 bg-emerald-50 rounded-md p-2 w-full focus:outline-none focus:bg-white focus:border-emerald-300 border-emerald-800 border-2 font-medium transition-all ease-in' type='number' name='entry.1067090660' placeholder='Jumlah' min={0} max={5}/>
+                    </div>
+                    
+                </div>
+
+                <div className='grid grid-cols-3 gap-5 bg-gradient-to-br from-emerald-100 to-cyan-100 p-5 rounded-lg shadow-lg border-2 border-emerald-50'>
+                    
+                    <img className='rounded-xl border-2 border-emerald-300 w-full h-full col-span-1 break-inside-avoid' src='https://drive.google.com/uc?export=view&id=1zpnlRlB2wIzLR3Qb-1jdFCY8-7GTYal9'></img>
+                    <div className='col-span-2 border-l-2 border-dashed border-emerald-300 pl-3'>
+                    <h3 className='text-2xl font-medium text-emerald-900'>Zyrolic 300mg</h3>
+                    <h3 className='bg-gradient-to-l from-emerald-300 to-emerald-400 p-1 rounded-lg my-1 text-emerald-50 font-bold text-md'>Rp.20000</h3>
+                    <p className='text-slate-500'>Dalam Satuan strip</p>
+                    <h5 className='text-slate-600 text-xs'>Jumlah : ..(Max.5)</h5>
+                    <input id='zl300' className='mt-3 bg-emerald-50 rounded-md p-2 w-full focus:outline-none focus:bg-white focus:border-emerald-300 border-emerald-800 border-2 font-medium transition-all ease-in' type='number' name='entry.857117924' placeholder='Jumlah' min={0} max={5}/>
+                    </div>
+                    
+                </div>
                 
+                <div className='grid grid-cols-3 gap-5 bg-gradient-to-br from-emerald-100 to-cyan-100 p-5 rounded-lg shadow-lg border-2 border-emerald-50'>
+                    
+                    <img className='rounded-xl border-2 border-emerald-300 w-full h-full col-span-1 break-inside-avoid' src='https://drive.google.com/uc?export=view&id=1jV800TuzbXprLWK8heq0coIdNRqY40pR'></img>
+                    <div className='col-span-2 border-l-2 border-dashed border-emerald-300 pl-3'>
+                    <h3 className='text-2xl font-medium text-emerald-900'>Feminax</h3>
+                    <h3 className='bg-gradient-to-l from-emerald-300 to-emerald-400 p-1 rounded-lg my-1 text-emerald-50 font-bold text-md'>Rp.15000</h3>
+                    <p className='text-slate-500'>Dalam Satuan strip</p>
+                    <h5 className='text-slate-600 text-xs'>Jumlah : ..(Max.5)</h5>
+                    <input id='fmx' className='mt-3 bg-emerald-50 rounded-md p-2 w-full focus:outline-none focus:bg-white focus:border-emerald-300 border-emerald-800 border-2 font-medium transition-all ease-in' type='number' name='entry.1826867245' placeholder='Jumlah' min={0} max={5}/>
+                    </div>
+                    
+                </div>
             </div>
 
             <div className='grid grid-cols-1 lg:grid-cols-2 gap-5'>
@@ -211,6 +255,15 @@ const inputformorder = () => {
                         </div>
                         <div>
                         <span id='thobh' className='text-xl'></span>
+                        </div>
+                        <div>
+                        <span id='thzl100' className='text-xl'></span>
+                        </div>
+                        <div>
+                        <span id='thzl300' className='text-xl'></span>
+                        </div>
+                        <div>
+                        <span id='thfmx' className='text-xl'></span>
                         </div>
 
                         <div>
