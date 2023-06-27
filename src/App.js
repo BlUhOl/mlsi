@@ -10,6 +10,7 @@ import _inputformorder from './components/inputformorder'
 import _pageorder from './components/pageorder';
 import _navbar from './components/navbar';
 import _login from './components/login';
+import _feedback from './components/feedback'
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Route path='/dashboard/orderlist' element={<_ordertable/>} />
         <Route path='/dashboard/overview' element={<_mainhome/>} />
         <Route path='/dashboard/inventory' element={<_inventory/>} />
+        <Route path='/dashboard/feedback' element={<_feedback/>} />
         
 
       </Routes>  
