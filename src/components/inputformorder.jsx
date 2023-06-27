@@ -1,3 +1,4 @@
+//Form inpur
 import React from 'react'
 
 const inputformorder = () => {
@@ -16,9 +17,10 @@ const inputformorder = () => {
     var hzl100 = document.getElementById("zl100").value * 10000;
     var hzl300 = document.getElementById("zl300").value * 20000;
     var hfmx = document.getElementById("fmx").value * 15000;
+    var hpls100 = document.getElementById("pls100").value * 20000;
 
     
-     var ttlprc = hibprfn + hprctml + hsnml + hobh + hzl100 + hzl300 + hfmx ;
+     var ttlprc = hibprfn + hprctml + hsnml + hobh + hzl100 + hzl300 + hfmx + hpls100 ;
      document.getElementById("result").hidden = false;
 
     document.getElementById("data1").innerHTML = nm;
@@ -35,6 +37,7 @@ const inputformorder = () => {
     document.getElementById("thzl100").innerHTML ="Zyloric 100mg    " + "x" + document.getElementById("zl100").value + "=        Rp." + hzl100;
     document.getElementById("thzl300").innerHTML ="Zyloric 300mg    " + "x" + document.getElementById("zl300").value + "=        Rp." + hzl300;
     document.getElementById("thfmx").innerHTML ="Feminax    " + "x" + document.getElementById("fmx").value + "=        Rp." + hfmx;
+    document.getElementById("thpls100").innerHTML ="Polisylane 100ml    " + "x" + document.getElementById("pls100").value + "=        Rp." + hpls100;
    
    
 
@@ -184,6 +187,19 @@ const inputformorder = () => {
                     </div>
                     
                 </div>
+
+                <div className='grid grid-cols-3 gap-5 bg-gradient-to-br from-emerald-100 to-cyan-100 p-5 rounded-lg shadow-lg border-2 border-emerald-50'>
+                    
+                    <img className='rounded-xl border-2 border-emerald-300 w-full h-full col-span-1 break-inside-avoid' src='https://drive.google.com/uc?export=view&id=1pwwVf0-M8RzBE0s1A28lLiCVefC0PAPP'></img>
+                    <div className='col-span-2 border-l-2 border-dashed border-emerald-300 pl-3'>
+                    <h3 className='text-2xl font-medium text-emerald-900'>Polysilane 100ml</h3>
+                    <h3 className='bg-gradient-to-l from-emerald-300 to-emerald-400 p-1 rounded-lg my-1 text-emerald-50 font-bold text-md'>Rp.20000</h3>
+                    <p className='text-slate-500'>Dalam Satuan Botol</p>
+                    <h5 className='text-slate-600 text-xs'>Jumlah : ..(Max.5)</h5>
+                    <input id='pls100' className='mt-3 bg-emerald-50 rounded-md p-2 w-full focus:outline-none focus:bg-white focus:border-emerald-300 border-emerald-800 border-2 font-medium transition-all ease-in' type='number' name='entry.465290073' placeholder='Jumlah' min={0} max={5}/>
+                    </div>
+                    
+                </div>
             </div>
 
             <div className='grid grid-cols-1 lg:grid-cols-2 gap-5'>
@@ -264,6 +280,9 @@ const inputformorder = () => {
                         </div>
                         <div>
                         <span id='thfmx' className='text-xl'></span>
+                        </div>
+                        <div>
+                        <span id='thpls100' className='text-xl'></span>
                         </div>
 
                         <div>

@@ -1,3 +1,4 @@
+//Navbar Samping
 import React from 'react'
 
 const navbar = () => {
@@ -21,6 +22,12 @@ const navbar = () => {
             <a href="/dashboard/inventory">
                 <div className='container border-b-2 border-emerald-400 text-4xl rounded-xl p-2 hover:font-semibold hover:bg-emerald-100 transition-all ease-in'>
                     Inventory
+                </div>
+            </a>
+
+            <a href="/dashboard/feedback">
+                <div className='container border-b-2 border-emerald-400 text-4xl rounded-xl p-2 hover:font-semibold hover:bg-emerald-100 transition-all ease-in'>
+                    Feedback
                 </div>
             </a>
 
