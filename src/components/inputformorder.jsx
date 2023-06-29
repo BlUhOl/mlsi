@@ -285,15 +285,7 @@ const inputformorder = () => {
                         <span id='thpls100' className='text-xl'></span>
                         </div>
 
-                        <div>
-                        <h4 className='text-xl'>Metode Pengiriman :</h4>
-                        <span id='mtdpeng' className='text-xl'></span>
-                        </div>
-
-                        <div>
-                        <h4 className='text-xl'>Metode Pembayaran :</h4>
-                        <span id='mtdpemb' className='text-xl'></span>
-                        </div>
+                        
 
                         <div className='flex items-end justify-end'>
                         <span id='totalprice' className='p-3 rounded-lg bg-gradient-to-l from-emerald-300 to-emerald-400 text-xl font-semibold'></span>
