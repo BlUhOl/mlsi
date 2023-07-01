@@ -99,8 +99,8 @@ const inputformorder = () => {
             
                 <div className='grid grid-cols-3 gap-5 bg-gradient-to-br from-emerald-100 to-cyan-100 p-5 rounded-lg shadow-lg border-2 border-emerald-50'>
                     
-                    <img className='rounded-xl border-2 border-emerald-300 w-full h-full col-span-1 break-inside-avoid' src='https://drive.google.com/uc?export=view&id=1CBmTkSiVARe4dRLQmWD_A9a84CHfKfwa'></img>
-                    <div className='col-span-2 border-l-2 border-dashed border-emerald-300 pl-3'>
+                    <img className='col-span-3 sm:col-span-1 rounded-xl border-2 border-emerald-300 w-full h-full  break-inside-avoid' src='https://drive.google.com/uc?export=view&id=1CBmTkSiVARe4dRLQmWD_A9a84CHfKfwa'></img>
+                    <div className=' col-span-3 sm:col-span-2 border-l-2 border-dashed border-emerald-300 pl-3'>
                     <h3 className='text-2xl font-medium text-emerald-900'>Ibuprofen</h3>
                     <h3 className='bg-gradient-to-l from-emerald-300 to-emerald-400 p-1 rounded-lg my-1 text-emerald-50 font-bold text-md'>Rp.3500</h3>
                     <p className='text-slate-500'>Dalam Satuan strip</p>
@@ -112,8 +112,8 @@ const inputformorder = () => {
 
                 <div className='grid grid-cols-3 gap-5 bg-gradient-to-br from-emerald-100 to-cyan-100 p-5 rounded-lg shadow-lg border-2 border-emerald-50'>
                     
-                    <img className='rounded-xl border-2 border-emerald-300 w-full h-full col-span-1 break-inside-avoid' src='https://drive.google.com/uc?export=view&id=13lXilKe2ivWWXDVzKb2Xi5eU3JASkozC'></img>
-                    <div className='col-span-2 border-l-2 border-dashed border-emerald-300 pl-3'>
+                    <img className='col-span-3 sm:col-span-1 rounded-xl border-2 border-emerald-300 w-full h-full  break-inside-avoid' src='https://drive.google.com/uc?export=view&id=13lXilKe2ivWWXDVzKb2Xi5eU3JASkozC'></img>
+                    <div className='col-span-3 sm:col-span-2 border-l-2 border-dashed border-emerald-300 pl-3'>
                     <h3 className='text-2xl font-medium text-emerald-900'>Paracetamol</h3>
                     <h3 className='bg-gradient-to-l from-emerald-300 to-emerald-400 p-1 rounded-lg my-1 text-emerald-50 font-bold text-md'>Rp.5000</h3>
                     <p className='text-slate-500'>Dalam Satuan strip</p>
@@ -125,8 +125,8 @@ const inputformorder = () => {
 
                 <div className='grid grid-cols-3 gap-5 bg-gradient-to-br from-emerald-100 to-cyan-100 p-5 rounded-lg shadow-lg border-2 border-emerald-50'>
                     
-                    <img className='rounded-xl border-2 border-emerald-300 w-full h-full col-span-1 break-inside-avoid' src='https://drive.google.com/uc?export=view&id=12se-mT8_nX1Jg-NjFunqwk9TmsvYOrpE'></img>
-                    <div className='col-span-2 border-l-2 border-dashed border-emerald-300 pl-3'>
+                    <img className='col-span-3 sm:col-span-1 rounded-xl border-2 border-emerald-300 w-full h-full break-inside-avoid' src='https://drive.google.com/uc?export=view&id=12se-mT8_nX1Jg-NjFunqwk9TmsvYOrpE'></img>
+                    <div className='col-span-3 sm:col-span-2 border-l-2 border-dashed border-emerald-300 pl-3'>
                     <h3 className='text-2xl font-medium text-emerald-900'>Sanmol</h3>
                     <h3 className='bg-gradient-to-l from-emerald-300 to-emerald-400 p-1 rounded-lg my-1 text-emerald-50 font-bold text-md'>Rp.3000</h3>
                     <p className='text-slate-500'>Dalam Satuan strip</p>
@@ -138,8 +138,8 @@ const inputformorder = () => {
 
                 <div className='grid grid-cols-3 gap-5 bg-gradient-to-br from-emerald-100 to-cyan-100 p-5 rounded-lg shadow-lg border-2 border-emerald-50'>
                     
-                    <img className='rounded-xl border-2 border-emerald-300 w-full h-full col-span-1 break-inside-avoid' src='https://drive.google.com/uc?export=view&id=1eQPEQbqFuVNnHU7vxGqIBHyeYXFYEFXB'></img>
-                    <div className='col-span-2 border-l-2 border-dashed border-emerald-300 pl-3'>
+                    <img className='col-span-3 sm:col-span-1 rounded-xl border-2 border-emerald-300 w-full h-full  break-inside-avoid' src='https://drive.google.com/uc?export=view&id=1eQPEQbqFuVNnHU7vxGqIBHyeYXFYEFXB'></img>
+                    <div className='col-span-3 sm:col-span-2 border-l-2 border-dashed border-emerald-300 pl-3'>
                     <h3 className='text-2xl font-medium text-emerald-900'>OBH</h3>
                     <h3 className='bg-gradient-to-l from-emerald-300 to-emerald-400 p-1 rounded-lg my-1 text-emerald-50 font-bold text-md'>Rp.25000</h3>
                     <p className='text-slate-500'>Dalam Satuan botol</p>
@@ -151,8 +151,8 @@ const inputformorder = () => {
 
                 <div className='grid grid-cols-3 gap-5 bg-gradient-to-br from-emerald-100 to-cyan-100 p-5 rounded-lg shadow-lg border-2 border-emerald-50'>
                     
-                    <img className='rounded-xl border-2 border-emerald-300 w-full h-full col-span-1 break-inside-avoid' src='https://drive.google.com/uc?export=view&id=1VCfDmdbZFwXpM9C-bYGubXLwPAfcb-QV'></img>
-                    <div className='col-span-2 border-l-2 border-dashed border-emerald-300 pl-3'>
+                    <img className='col-span-3 sm:col-span-1 rounded-xl border-2 border-emerald-300 w-full h-full break-inside-avoid' src='https://drive.google.com/uc?export=view&id=1VCfDmdbZFwXpM9C-bYGubXLwPAfcb-QV'></img>
+                    <div className='col-span-3 sm:col-span-2 border-l-2 border-dashed border-emerald-300 pl-3'>
                     <h3 className='text-2xl font-medium text-emerald-900'>Zyrolic 100mg</h3>
                     <h3 className='bg-gradient-to-l from-emerald-300 to-emerald-400 p-1 rounded-lg my-1 text-emerald-50 font-bold text-md'>Rp.10000</h3>
                     <p className='text-slate-500'>Dalam Satuan strip</p>
@@ -164,8 +164,8 @@ const inputformorder = () => {
 
                 <div className='grid grid-cols-3 gap-5 bg-gradient-to-br from-emerald-100 to-cyan-100 p-5 rounded-lg shadow-lg border-2 border-emerald-50'>
                     
-                    <img className='rounded-xl border-2 border-emerald-300 w-full h-full col-span-1 break-inside-avoid' src='https://drive.google.com/uc?export=view&id=1zpnlRlB2wIzLR3Qb-1jdFCY8-7GTYal9'></img>
-                    <div className='col-span-2 border-l-2 border-dashed border-emerald-300 pl-3'>
+                    <img className='col-span-3 sm:col-span-1 rounded-xl border-2 border-emerald-300 w-full h-full break-inside-avoid' src='https://drive.google.com/uc?export=view&id=1zpnlRlB2wIzLR3Qb-1jdFCY8-7GTYal9'></img>
+                    <div className='col-span-3 sm:col-span-2 border-l-2 border-dashed border-emerald-300 pl-3'>
                     <h3 className='text-2xl font-medium text-emerald-900'>Zyrolic 300mg</h3>
                     <h3 className='bg-gradient-to-l from-emerald-300 to-emerald-400 p-1 rounded-lg my-1 text-emerald-50 font-bold text-md'>Rp.20000</h3>
                     <p className='text-slate-500'>Dalam Satuan strip</p>
@@ -177,8 +177,8 @@ const inputformorder = () => {
                 
                 <div className='grid grid-cols-3 gap-5 bg-gradient-to-br from-emerald-100 to-cyan-100 p-5 rounded-lg shadow-lg border-2 border-emerald-50'>
                     
-                    <img className='rounded-xl border-2 border-emerald-300 w-full h-full col-span-1 break-inside-avoid' src='https://drive.google.com/uc?export=view&id=1jV800TuzbXprLWK8heq0coIdNRqY40pR'></img>
-                    <div className='col-span-2 border-l-2 border-dashed border-emerald-300 pl-3'>
+                    <img className='col-span-3 sm:col-span-1 rounded-xl border-2 border-emerald-300 w-full h-full break-inside-avoid' src='https://drive.google.com/uc?export=view&id=1jV800TuzbXprLWK8heq0coIdNRqY40pR'></img>
+                    <div className='col-span-3 sm:col-span-2 border-l-2 border-dashed border-emerald-300 pl-3'>
                     <h3 className='text-2xl font-medium text-emerald-900'>Feminax</h3>
                     <h3 className='bg-gradient-to-l from-emerald-300 to-emerald-400 p-1 rounded-lg my-1 text-emerald-50 font-bold text-md'>Rp.15000</h3>
                     <p className='text-slate-500'>Dalam Satuan strip</p>
@@ -190,8 +190,8 @@ const inputformorder = () => {
 
                 <div className='grid grid-cols-3 gap-5 bg-gradient-to-br from-emerald-100 to-cyan-100 p-5 rounded-lg shadow-lg border-2 border-emerald-50'>
                     
-                    <img className='rounded-xl border-2 border-emerald-300 w-full h-full col-span-1 break-inside-avoid' src='https://drive.google.com/uc?export=view&id=1pwwVf0-M8RzBE0s1A28lLiCVefC0PAPP'></img>
-                    <div className='col-span-2 border-l-2 border-dashed border-emerald-300 pl-3'>
+                    <img className='col-span-3 sm:col-span-1 rounded-xl border-2 border-emerald-300 w-full h-full break-inside-avoid' src='https://drive.google.com/uc?export=view&id=1pwwVf0-M8RzBE0s1A28lLiCVefC0PAPP'></img>
+                    <div className='col-span-3 sm:col-span-2 border-l-2 border-dashed border-emerald-300 pl-3'>
                     <h3 className='text-2xl font-medium text-emerald-900'>Polysilane 100ml</h3>
                     <h3 className='bg-gradient-to-l from-emerald-300 to-emerald-400 p-1 rounded-lg my-1 text-emerald-50 font-bold text-md'>Rp.20000</h3>
                     <p className='text-slate-500'>Dalam Satuan Botol</p>
